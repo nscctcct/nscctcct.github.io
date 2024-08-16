@@ -76,6 +76,11 @@
    text-align:left; 
 }
 
+.table_span_normal{;
+    width:33.3%;
+    text-align: left;
+}
+
 .table_span_header{;
     width:30%;
     text-align: center;
