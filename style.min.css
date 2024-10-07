@@ -27,8 +27,7 @@
     padding-left: 20px;
     font-weight: bold;
     float:left;
-    vertical-align: middle;
-    
+    vertical-align: middle;  
 }
 
 .nav-item li{
@@ -44,7 +43,6 @@
 .nav-item   li a:hover {
     text-decoration: none;
 }
-
 
 .content{
     width:100%;
@@ -92,6 +90,24 @@
     width:100%;
     text-align: center;  
     table-layout: fixed;
+}
+
+.table_report{
+    width:100%;
+    text-align: left;  
+    table-layout: fixed;
+    padding: 10px;
+}
+
+.table_report_left{
+    width:20%;
+    text-align:left;  
+    table-layout: fixed;
+    vertical-align: top;
+}
+
+.table_report img{
+    width:80%;
 }
 
 .title_span{
@@ -159,3 +175,32 @@
     font-weight: bold;
     text-align: center;
 }
+
+.sub-menu{
+    display:block;
+}
+
+.sub-menu-content {
+    margin-left: 5px;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    /* z-index: 1; */
+}
+  
+.sub-menu-content a {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+}
+
+.sub-menu-content a:hover {
+    background-color:#e20509;
+}
+  
+.sub-menu:hover .sub-menu-content {
+    display: block; background-color: #C60100;
+}
+  
