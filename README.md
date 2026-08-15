@@ -1,1 +1,1 @@
-Demo site for Nonlinear Systems and Control Conference
+Demo site for NSCC
